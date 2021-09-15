@@ -10,10 +10,10 @@ public class MainController {
 
     @GetMapping("/")
     public ResponseEntity<String> home(){
-        return ResponseEntity.ok("Welcome to home page using AWS Fargate");
+        return ResponseEntity.ok("Welcome to home page using AWS Fargate!!!!!");
     }
     @GetMapping("/demo")
     public ResponseEntity<String> demo(){
-        return ResponseEntity.ok("Welcome to Demo page using AWS Fargate!");
+        return ResponseEntity.ok("Welcome to Demo page using AWS Fargate!!!!!");
     }
 }
